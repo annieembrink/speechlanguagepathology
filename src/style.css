@@ -134,15 +134,26 @@ svg {
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-
+}
+#textWeOfferContainer {
+    background-color: white;
+    width: 90vw;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 #textHomePageContainer div {
 margin: 20px auto;
 width: 80%;
 }
+#textWeOfferContainer div {
+margin: 20px auto;
+width: 80%;
+}
 
-#textHomePageContainer ul {
+ul {
     list-style: none;
 }
 
@@ -150,8 +161,16 @@ width: 80%;
     color: #44745F;
     line-height: 1.5;
 }
+#textWeOfferContainer p {
+    color: #44745F;
+    line-height: 1.5;
+}
+#textHomePageContainer p {
+    color: #44745F;
+    line-height: 1.5;
+}
 
-#textHomePageContainer li {
+li {
     color: #44745F;
     line-height: 1.5;
 }
@@ -161,6 +180,14 @@ width: 80%;
 }
 
 #textHomePageContainer h4 {
+    color: #44745F;
+}
+#textWeOfferContainer h3 {
+    color: #44745F;
+    margin-bottom: 10px;
+}
+
+#textWeOfferContainer h4 {
     color: #44745F;
 }
 
