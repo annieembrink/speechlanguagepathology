@@ -1,8 +1,9 @@
 import '../style.css';  // Relativ sökväg från HomePage.js
+import Menu from '../components/menu';
 
 const HomePage = () => {
     return ( 
-
+<div>
         <div id="headerContainer">
             <div id="headerName">
                 <div id='imgDiv'>
@@ -23,7 +24,8 @@ const HomePage = () => {
             </div>
             </div>
         </div>
-
+        <Menu></Menu>
+        </div>
      );
 }
  

@@ -17,7 +17,7 @@ body {
     background-color: white;
     width: 90vw;
     height: 35vh;
-    margin: auto;
+    /* margin: auto; */
     /* padding: 10px 20px; */
     margin: 10px;
     display: flex;
@@ -93,3 +93,36 @@ svg {
     color: #44745F;
 }
 
+#menuBar {
+    /* height: 70px; */
+    width: 90vw;
+    background-color: #C6DACF;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px 20px; */
+    flex-wrap: wrap;
+}
+
+#menuBar button {
+    padding: 10px 20px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #44745F;
+    color: white;
+    border-radius: 5px;
+    border: none;             /* Remove any border */
+    outline: none;            /* Remove focus outline */
+    box-shadow: none; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#menuBar button:hover {
+    transform: scale(1.1); /* Scale the button to 110% of its original size */
+    transition: transform 0.3s ease; /* Smooth transition effect */
+}
