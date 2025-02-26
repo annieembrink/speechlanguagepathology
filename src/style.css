@@ -1,0 +1,95 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Serif', serif;
+}
+
+#headerContainer {
+    background-color: white;
+    width: 90vw;
+    height: 35vh;
+    margin: auto;
+    /* padding: 10px 20px; */
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+#headerName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    height: 100%;
+    width: 80%;
+    /* height: 50px; */
+}
+
+#imgDiv {
+    height: 50%;
+}
+
+svg {
+    height: 100%;
+    padding: 0;
+    color: #70A287;
+}
+
+#headerH1 {
+    height: 20%;
+    display: flex;
+    align-items: center;
+    font-weight: 200;
+    color: #70A287;
+}
+
+#rightElements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+#headerTagline {
+    background-color: #44745F;
+    flex-grow: 1;
+    border-radius: 0 10px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+#headerTagline h3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    color: #C6DACF;
+    padding: 0 20px;
+}
+
+#headerContact {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    background-color: #C6DACF;
+    /* height: 60px; */
+}
+
+#headerContact h4 {
+    font-weight: 100;
+    color: #44745F;
+}
+
