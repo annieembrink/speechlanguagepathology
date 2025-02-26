@@ -2,9 +2,8 @@ const TextHomePage = () => {
     return ( <div id="textHomePageContainer">
 
 <div>
-        <p>Välkommen till FolkLogopedi</p>
-        <p>Mottagning i Stockholm</p>
-        <p>Onlinebesök över hela Sverige</p>
+        <h3>Välkommen till Folklogopedi</h3>
+        <h4>Mottagning i Stockholm och Onlinebesök över hela Sverige</h4>
         </div>
         
         <div>
@@ -25,10 +24,9 @@ const TextHomePage = () => {
         
         <div><p>Har du frågor eller vill boka en tid? Välkommen att kontakta mig!</p></div>
         
-        <p>folklogopedi@gmail.com</p>
         <p>072 538 48 17</p>
+        <p>folklogopedi@gmail.com</p>
         
-        ---
         </div> );
 }
  

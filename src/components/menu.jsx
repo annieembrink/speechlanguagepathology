@@ -1,16 +1,34 @@
+import { useState } from "react";
+import TextHomePage from "./textHomePage";
+
 const Menu = () => {
+    const [activePage, setActivePage] = useState("Hem");
+
+    const handleClick = (page) => {
+        setActivePage(page);
+    };
+
     return ( 
         <div>
             <div id="menuBar">
-                <button>Hem</button>
-                <button>Om</button>
-                <button>Digital vård</button>
-                <button>Vi erbjuder</button>
-                <button>Priser</button>
-                <button>Kontakt</button>
+                <button onClick={() => handleClick("Hem")}>Hem</button>
+                <button onClick={() => handleClick("Om")}>Om</button>
+                <button onClick={() => handleClick("Digital vård")}>Digital vård</button>
+                <button onClick={() => handleClick("Vi erbjuder")}>Vi erbjuder</button>
+                <button onClick={() => handleClick("Priser")}>Priser</button>
+                <button onClick={() => handleClick("Kontakt")}>Kontakt</button>
+            </div>
+
+            <div id="content">
+                {activePage === "Hem" && <TextHomePage></TextHomePage>}
+                {activePage === "Om" && <p>Om oss: Här är lite information om oss.</p>}
+                {activePage === "Digital vård" && <p>Vi erbjuder digital vård för alla!</p>}
+                {activePage === "Vi erbjuder" && <p>Här är våra tjänster.</p>}
+                {activePage === "Priser" && <p>Här hittar du våra priser.</p>}
+                {activePage === "Kontakt" && <p>Kontakta oss gärna!</p>}
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default Menu;

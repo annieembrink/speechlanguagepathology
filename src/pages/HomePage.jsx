@@ -26,7 +26,6 @@ const HomePage = () => {
             </div>
         </div>
         <Menu></Menu>
-        <TextHomePage></TextHomePage>
         </div>
      );
 }

@@ -138,10 +138,30 @@ svg {
 }
 
 #textHomePageContainer div {
-margin: 20px 0;
+margin: 20px auto;
+width: 80%;
 }
 
 #textHomePageContainer ul {
     list-style: none;
 }
+
+#textHomePageContainer p {
+    color: #44745F;
+    line-height: 1.5;
+}
+
+#textHomePageContainer li {
+    color: #44745F;
+    line-height: 1.5;
+}
+#textHomePageContainer h3 {
+    color: #44745F;
+    margin-bottom: 10px;
+}
+
+#textHomePageContainer h4 {
+    color: #44745F;
+}
+
 
