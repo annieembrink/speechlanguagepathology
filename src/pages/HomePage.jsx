@@ -1,5 +1,6 @@
 import '../style.css';  // Relativ sökväg från HomePage.js
 import Menu from '../components/menu';
+import TextHomePage from '../components/textHomePage';
 
 const HomePage = () => {
     return ( 
@@ -25,6 +26,7 @@ const HomePage = () => {
             </div>
         </div>
         <Menu></Menu>
+        <TextHomePage></TextHomePage>
         </div>
      );
 }
