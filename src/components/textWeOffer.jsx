@@ -49,18 +49,16 @@ const TextWeOffer = () => {
                 </div>
 <div className="container">
     <div className="containerDiv">
-                <div>
                     <h4>Jag erbjuder också bedömning och behandling av:</h4>
-                </div>
 
-                <div>
+            
                     <ul>
                         <li>Sväljsvårigheter</li>
                         <li>Afasi (språkliga svårigheter efter hjärnskada)</li>
                         <li>Dysartri (talsvårigheter efter hjärnskada)</li>
                         <li>Röststörningar (heshet, rösttrötthet, svag röst)</li>
                     </ul>
-                </div>
+              
 
                 <div>
                     <h4>Jag gör också hembesök i Stockholmsområdet</h4>

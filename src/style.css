@@ -12,6 +12,41 @@ body {
     color: #44745F;
 }
 
+#flex {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+#profileImageDiv {
+    height: 200px;
+}
+#profileImageDiv img{
+    height: 100%;
+    border-radius: 10px;
+    flex-grow: 1;
+}
+
+.aboutText {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.welcome {
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.small {
+    font-size: 1rem;
+}
+
 /* Common Styles */
 .container {
     background-color: white;

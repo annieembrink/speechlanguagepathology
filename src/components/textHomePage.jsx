@@ -4,8 +4,8 @@ const TextHomePage = () => {
 <div className="container">
 <div className="containerDiv">
     <div>
-        <h3>Välkommen till Folklogopedi</h3>
-        <h4>Mottagning i Stockholm och Onlinebesök över hela Sverige</h4>
+        <h3 className="welcome">Välkommen till Folklogopedi</h3>
+        <h4 className="welcome small">Mottagning i Stockholm och Onlinebesök över hela Sverige</h4>
         </div>
         
        
@@ -14,7 +14,7 @@ const TextHomePage = () => {
         <h4>Jag tar emot både barn och vuxna och erbjuder:</h4>
          
          <ul>
-            <li>Utredning av läs- och skrivsvårigheter, inklusive dyslexi</li>
+            <li>Utredning av läs- och skrivsvårigheter</li>
             <li>Bedömning och behandling av kommunikationssvårigheter </li>
             <li>Hjälp vid sväljningsproblematik (dysfagi) hos vuxna</li>
             <li>Individuellt anpassad rådgivning och stöd</li>
@@ -23,8 +23,8 @@ const TextHomePage = () => {
         
         <div><p>Har du frågor eller vill boka en tid? Välkommen att kontakta mig!</p></div>
         
-        <p>072 538 48 17</p>
-        <p>folklogopedi@gmail.com</p>
+        <p className="italic">072 538 48 17</p>
+        <p className="italic">folklogopedi@gmail.com</p>
 
         
         
