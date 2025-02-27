@@ -34,7 +34,7 @@ body {
     justify-content: center;
     flex-grow: 1;
     height: 100%;
-    width: 80%;
+    /* width: 80%; */
     /* height: 50px; */
 }
 
@@ -76,7 +76,8 @@ svg {
     align-items: center;
     justify-content: center;
     font-weight: 100;
-    color: #C6DACF;
+    /* color: #C6DACF; */
+    color: white;
     padding: 0 20px;
 }
 
@@ -126,6 +127,7 @@ svg {
     transform: scale(1.1); /* Scale the button to 110% of its original size */
     transition: transform 0.3s ease; /* Smooth transition effect */
 }
+
 
 #textHomePageContainer {
     background-color: white;
