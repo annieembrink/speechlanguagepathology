@@ -4,7 +4,7 @@ const TextHomePage = () => {
 <div className="container">
 <div className="containerDiv">
     <div>
-        <h3 className="welcome">Välkommen till Folklogopedi</h3>
+        <h3 className="welcome">Välkommen till Folke Logopedi</h3>
         <h4 className="welcome small">Mottagning i Stockholm och Onlinebesök över hela Sverige</h4>
         </div>
         
@@ -24,7 +24,7 @@ const TextHomePage = () => {
         <div><p>Har du frågor eller vill boka en tid? Välkommen att kontakta mig!</p></div>
         
         <p className="italic">072 538 48 17</p>
-        <p className="italic">folklogopedi@gmail.com</p>
+        <p className="italic">annie.embrink@gmail.com</p>
 
         
         

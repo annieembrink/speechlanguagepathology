@@ -63,7 +63,9 @@ const TextWeOffer = () => {
                 <div>
                     <h4>Jag gör också hembesök i Stockholmsområdet</h4>
                     <p>För patienter som har svårt att ta sig till en mottagning erbjuder jag hembesök i södra Stockholm och Stockholms innerstad. Detta gäller både för utredningar och behandlingar av sväljningssvårigheter, afasi, dysartri och röststörningar.</p>
+                    <div>
                     <p>Kontakta mig för mer information eller tidsbokning.</p>
+                    </div>
                 </div>
                 </div>
             </div>
