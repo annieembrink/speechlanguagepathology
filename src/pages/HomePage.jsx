@@ -3,13 +3,15 @@ import '../style.css';
 import Menu from '../components/menu';
 import TextHomePage from '../components/textHomePage';
 import TextWeOffer from '../components/textWeOffer';
+import TextAbout from "../components/textAbout";
+import TextDigitalCare from "../components/textDigitalCare";
 
 const HomePage = () => {
     const [activePage, setActivePage] = useState("Hem");
 
     return ( 
         <div>
-            <div id="headerContainer">
+            <div className="container" id="headerContainer">
                 <div id="headerName" onClick={() => setActivePage("Hem")}>  
                     <div id='imgDiv'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 21 21">
@@ -34,7 +36,8 @@ const HomePage = () => {
 
             <div id="content">
                 {activePage === "Hem" && <TextHomePage />}
-                {activePage === "Digital vård" && <p>Vi erbjuder digital vård för alla!</p>}
+                {activePage === "Om" && <TextAbout/>}
+                {activePage === "Digital vård" && <TextDigitalCare/>}
                 {activePage === "Vi erbjuder" && <TextWeOffer />}
                 {activePage === "Priser" && <p>Här hittar du våra priser.</p>}
                 {activePage === "Kontakt" && <p>Kontakta oss gärna!</p>}

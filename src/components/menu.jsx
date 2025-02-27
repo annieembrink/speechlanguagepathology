@@ -3,6 +3,7 @@ const Menu = ({ setActivePage }) => {
         <div>
             <div id="menuBar">
                 <button onClick={() => setActivePage("Hem")}>Hem</button>
+                <button onClick={() => setActivePage("Om")}>Om mig</button>
                 <button onClick={() => setActivePage("Digital vård")}>Digital vård</button>
                 <button onClick={() => setActivePage("Vi erbjuder")}>Vi erbjuder</button>
                 <button onClick={() => setActivePage("Priser")}>Priser</button>

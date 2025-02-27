@@ -1,20 +1,17 @@
 const TextHomePage = () => {
-    return ( <div id="textHomePageContainer">
-
-<div>
+    return ( 
+    
+<div className="container">
+<div className="containerDiv">
+    <div>
         <h3>Välkommen till Folklogopedi</h3>
         <h4>Mottagning i Stockholm och Onlinebesök över hela Sverige</h4>
         </div>
         
-        <div>
-        <p>Jag heter Annie och är legitimerad logoped sedan 2016. Med erfarenhet inom  läs- och skrivsvårigheter samt kommunikation och sväljning hos vuxna, erbjuder jag individuellt anpassad logopedisk hjälp i privat regi.</p></div>
-        
-        <div><p>
-        Eftersom verksamheten ej har avtal med landstinget, innebär det att du som patient själv står för kostnaden. Fördelen är kortare väntetider, större flexibilitet och en mer personlig vårdupplevelse där vi tillsammans skapar en plan utifrån dina behov och önskemål.  Du behöver alltså ingen remiss för att komma till oss.</p>
-        </div>
+       
         
         <div>
-        <p>Jag tar emot både barn och vuxna och erbjuder:</p>
+        <h4>Jag tar emot både barn och vuxna och erbjuder:</h4>
          
          <ul>
             <li>Utredning av läs- och skrivsvårigheter, inklusive dyslexi</li>
@@ -28,8 +25,10 @@ const TextHomePage = () => {
         
         <p>072 538 48 17</p>
         <p>folklogopedi@gmail.com</p>
+
         
-        </div> );
+        
+        </div></div> );
 }
  
 export default TextHomePage;
