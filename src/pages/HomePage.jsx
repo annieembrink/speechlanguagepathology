@@ -20,7 +20,7 @@ const HomePage = () => {
                             <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" d="M18.5 6.59q-2-1.09-4-1.09c-2 0-2.667.364-4 1.09v9.91q2-1 4-1c2 0 2.667.333 4 1zm-8 0q-2-1.09-4-1.09c-2 0-2.667.364-4 1.09v9.91q2-1 4-1c2 0 2.667.333 4 1z" strokeWidth="0.5"/>
                         </svg>
                     </div>
-                    <h1 id='headerH1'>Folke Logopedi</h1>
+                    <h1 id='headerH1'>Webblogopeden</h1>
                 </div>
 
                 <div id='rightElements'>
@@ -40,7 +40,7 @@ const HomePage = () => {
                 {activePage === "Hem" && <TextHomePage />}
                 {activePage === "Om" && <TextAbout/>}
                 {activePage === "Digital vård" && <TextDigitalCare/>}
-                {activePage === "Vi erbjuder" && <TextWeOffer />}
+                {activePage === "Tjänster" && <TextWeOffer />}
                 {activePage === "Priser" && <TextPrices/>}
                 {activePage === "Kontakt" && <TextContact/>}
             </div>

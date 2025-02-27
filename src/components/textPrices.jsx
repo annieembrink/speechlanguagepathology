@@ -11,8 +11,7 @@ Eftersom verksamheten ej har avtal med landstinget, innebär det att du som pati
 
 <h4>Utredningar</h4>
 - Läs- och skrivutredning: 8 000 kr
-<br />
-- Sväljutredning: 2000kr
+
 {/* <br />
 - Språkutredning: 8 000 kr */}
 <h4>Logopedisk behandling</h4>
@@ -30,7 +29,7 @@ Eftersom verksamheten ej har avtal med landstinget, innebär det att du som pati
 Jag fakturerar via extern tjänst. Fakturan skickas efter genomförd utredning eller behandling och ska betalas inom 30 dagar.</p>
 
 <br />
-<p className="italic">Om du har frågor om priser eller betalning, är du välkommen att kontakta mig!</p>
+<p className="italic">Om du har frågor om priser eller betalning är du välkommen att kontakta mig!</p>
         </div>
     </div> );
 }
