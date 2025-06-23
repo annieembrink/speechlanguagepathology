@@ -2,165 +2,163 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
+  }
+  
+  body {
     background-color: gainsboro;
     display: flex;
     justify-content: center;
     font-family: 'Roboto Serif', serif;
     color: #44745F;
-}
-
-#flex {
+  }
+  
+  #flex {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin: 0 auto;
     width: 90%;
-}
-
-#bigImage {
+  }
+  
+  #bigImage {
     padding: 0;
-    /* margin: 0 auto; */
-}
-
-#profileImageDiv {
+  }
+  
+  #profileImageDiv {
     height: 300px;
-}
-
-#profileImageDiv img {
+  }
+  
+  #profileImageDiv img {
     height: 100%;
     border-radius: 10px;
-}
-
-.aboutText {
+  }
+  
+  .aboutText {
     display: flex;
     align-items: center;
     width: 50%;
-}
-
-.welcome {
+  }
+  
+  .welcome {
     font-weight: 200;
     font-size: 1.5rem;
-}
-
-.italic {
+  }
+  
+  .italic {
     font-style: italic;
-}
-
-.small {
+  }
+  
+  .small {
     font-size: 1rem;
-}
-
-/* Common Styles */
-.container {
+  }
+  
+  /* Common Styles */
+  .container {
     background-color: white;
     width: 90vw;
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-h3, h4 {
+  }
+  
+  h3, h4 {
     color: #44745F;
     margin: 20px 0 5px 0;
-}
-
-.containerDiv {
+  }
+  
+  .containerDiv {
     margin: 20px auto;
     width: 80%;
-}
-
-.containerDiv div {
+  }
+  
+  .containerDiv div {
     margin: 30px 0;
-}
-
-/* Header Styles */
-#headerContainer {
-    height: 35vh;
+  }
+  
+  /* Header Styles */
+  #headerContainer {
+    height: 20vh;
     margin: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0;
-}
-
-#headerContainer h3, h4 {
+  }
+  
+  #headerContainer h3, h4 {
     margin: 0;
-}
-
-#headerName {
+  }
+  
+  #headerName {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
     height: 100%;
-}
-
-#imgDiv {
+  }
+  
+  #imgDiv {
     height: 50%;
-}
-
-svg {
+    margin-bottom: 5px;
+  }
+  
+  svg {
     height: 100%;
     padding: 0;
     color: #70A287;
-}
-
-#headerH1 {
+  }
+  
+  #headerH1 {
     height: 20%;
     display: flex;
     align-items: center;
     font-weight: 200;
     color: #70A287;
-}
-
-#rightElements {
+  }
+  
+  #rightElements {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     height: 100%;
     margin: 0;
     padding: 0;
-}
-
-#headerTagline {
+  }
+  
+  #headerTagline {
     background-color: #44745F;
     flex-grow: 1;
-    border-radius: 0 10px 0 0;
+    border-radius: 0 10px 10px 0;
     display: flex;
     align-items: center;
-    /* padding: 0 20px; */
-}
-
-#headerTagline h3 {
+  }
+  
+  #headerTagline h3 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: 100;
     color: white;
     padding: 0 20px;
-}
-
-#headerContact {
+  }
+  
+  #headerContact {
     display: flex;
     flex-direction: column;
-    /* padding: 20px 0; */
     background-color: #C6DACF;
     height: 50%;
     justify-content: center;
-}
-
-#headerContact h4 {
+  }
+  
+  #headerContact h4 {
     font-weight: 100;
     color: #44745F;
-}
-
-/* Menu Bar Styles */
-#menuBar {
+  }
+  
+  /* Menu Bar Styles */
+  #menuBar {
     width: 90vw;
     background-color: #C6DACF;
     border-radius: 10px;
@@ -170,9 +168,9 @@ svg {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-}
-
-#menuBar button {
+  }
+  
+  #menuBar button {
     padding: 10px 20px;
     margin: 20px;
     background-color: #44745F;
@@ -181,28 +179,27 @@ svg {
     border: none;
     outline: none;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-}
-
-#menuBar button:hover {
+  }
+  
+  #menuBar button:hover {
     transform: scale(1.1);
     transition: transform 0.3s ease;
-}
-
-
-ul {
+  }
+  
+  ul {
     list-style: none;
-}
-
-li {
+  }
+  
+  li {
     margin-bottom: 5px;
     font-style: italic;
-}
-
-li:first-child {
+  }
+  
+  li:first-child {
     margin-top: 7px;
-}
-
-.contact-form {
+  }
+  
+  .contact-form {
     max-width: 500px;
     margin: 0 auto;
     padding: 2rem;
@@ -250,4 +247,112 @@ li:first-child {
     background-color: #44745F;
   }
   
+  /* === Responsive Adjustments === */
+  @media (max-width: 768px) {
+    body {
+      flex-direction: column;
+      align-items: center;
+    }
 
+    svg {
+        height: 10vh;
+    }
+  
+    #flex {
+      flex-direction: column;
+      gap: 20px;
+      width: 95%;
+    }
+  
+    .aboutText {
+      width: 100%;
+      text-align: center;
+      padding: 0 10px;
+    }
+  
+    #profileImageDiv {
+      height: auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    #profileImageDiv img {
+      width: 80%;
+      height: auto;
+    }
+  
+    #headerContainer {
+        width: 100vw;
+        margin: auto;
+        border-radius: 0;
+        display: block;
+      flex-direction: column;
+      height: auto;
+      gap: 10px;
+      text-align: center;
+    }
+
+    /* #headerName {
+        flex-direction: column;
+    } */
+
+    #headerName {
+        justify-content: left;
+        align-items: left;
+        padding: 10px 0 0 10px;
+    }
+
+    #headerH1 {
+        font-size: 1.5rem;
+    }
+  
+    #headerTagline {
+      border-radius: 0;
+      padding-left: 10px;
+      /* justify-content: center; */
+    }
+  
+    #headerTagline h3 {
+      padding: 10px;
+      font-size: 1rem;
+    }
+  
+    #headerContact {
+      height: auto;
+      padding: 10px 0;
+    }
+
+    #rightElements {
+        width: 100%;
+    }
+  
+    #menuBar {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .containerDiv {
+      width: 95%;
+    }
+  
+    .welcome {
+      font-size: 1.2rem;
+    }
+  
+    .small {
+      font-size: 0.9rem;
+    }
+  
+    .contact-form {
+      width: 90%;
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #menuBar button {
+      width: 100%;
+      margin: 10px 0;
+    }
+  }
+  

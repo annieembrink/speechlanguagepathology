@@ -7,7 +7,7 @@ const Menu = ({ setActivePage }) => {
                 <button onClick={() => setActivePage("Digital vård")}>Digital vård</button>
                 <button onClick={() => setActivePage("Tjänster")}>Tjänster</button>
                 <button onClick={() => setActivePage("Priser")}>Priser</button>
-                <button onClick={() => setActivePage("Kontakt")}>Kontakt</button>
+                <button onClick={() => setActivePage("Kontakt")}>Kontakt & bokning</button>
             </div>
         </div>
     );

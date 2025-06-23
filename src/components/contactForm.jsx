@@ -25,9 +25,9 @@ export default function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit} className="contact-form">
-      <input name="name" placeholder="Name" value={formData.name} onChange={handleChange} required />
-      <input name="email" placeholder="Email" type="email" value={formData.email} onChange={handleChange} required />
-      <textarea name="message" placeholder="Message" value={formData.message} onChange={handleChange} required />
+      <input name="name"  required placeholder="Name" value={formData.name} onChange={handleChange} required />
+      <input name="email" required placeholder="Email" type="email" value={formData.email} onChange={handleChange} required />
+      <textarea name="message" required placeholder="Message" value={formData.message} onChange={handleChange} required />
       <button type="submit">Send</button>
     </form>
   );
