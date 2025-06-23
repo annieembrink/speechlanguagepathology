@@ -28,8 +28,8 @@ const HomePage = () => {
                         <h3>Din dyslexilogoped över hela Sverige</h3>
                     </div>
                     <div id="headerContact">
-                        <h4>072 538 48 17</h4>
-                        <h4>annie.embrink@gmail.com</h4>
+                        {/* <h4>072 538 48 17</h4> */}
+                        <h4>webblogopeden@gmail.com</h4>
                     </div>
                 </div>
             </div>

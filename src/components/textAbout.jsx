@@ -3,9 +3,9 @@ const TextAbout = () => {
         <div className="container" id="bigImage">
             <div className="containerDiv" id="flex">
 
-                <div id="profileImageDiv">
+                {/* <div id="profileImageDiv">
                     <img src="/img/profilbild2.jpg" alt="Profilbild" />
-                </div>
+                </div> */}
                 <div className="aboutText">
                     
                     <p>
