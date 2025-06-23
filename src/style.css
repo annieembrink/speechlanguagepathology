@@ -37,6 +37,7 @@ body {
 .aboutText {
     display: flex;
     align-items: center;
+    width: 50%;
 }
 
 .welcome {
@@ -86,6 +87,10 @@ h3, h4 {
     padding: 0;
 }
 
+#headerContainer h3, h4 {
+    margin: 0;
+}
+
 #headerName {
     display: flex;
     flex-direction: column;
@@ -128,6 +133,7 @@ svg {
     border-radius: 0 10px 0 0;
     display: flex;
     align-items: center;
+    /* padding: 0 20px; */
 }
 
 #headerTagline h3 {
@@ -142,8 +148,10 @@ svg {
 #headerContact {
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     background-color: #C6DACF;
+    height: 50%;
+    justify-content: center;
 }
 
 #headerContact h4 {
@@ -186,7 +194,11 @@ ul {
 }
 
 li {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-style: italic;
+}
+
+li:first-child {
+    margin-top: 7px;
 }
 

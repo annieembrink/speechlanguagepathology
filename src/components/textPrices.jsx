@@ -6,7 +6,7 @@ const TextPrices = () => {
 
 <h4>Nedan hittar du prislistan för mina logopediska tjänster.</h4>
 <div><p>
-Eftersom verksamheten ej har avtal med landstinget, innebär det att du som patient själv står för kostnaden. Fördelen är kortare väntetider, större flexibilitet och en mer personlig vårdupplevelse där vi tillsammans skapar en plan utifrån dina behov och önskemål.  Du behöver ingen remiss för att komma till oss.</p></div>
+Eftersom verksamheten ej har avtal med landstinget, innebär det att du som patient själv står för kostnaden. Fördelen är kortare väntetider, att jag kan ta emot patienter från hela Sverige, ha verksamheten helt online, större flexibilitet och en mer personlig vårdupplevelse där vi tillsammans skapar en plan utifrån dina behov och önskemål.  Du behöver ingen remiss för att komma till mig.</p></div>
 
 
 <h4>Utredningar</h4>

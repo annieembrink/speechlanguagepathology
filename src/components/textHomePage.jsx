@@ -5,7 +5,7 @@ const TextHomePage = () => {
 <div className="containerDiv">
     <div>
         <h3 className="welcome">Välkommen till Webblogopeden</h3>
-        <h4 className="welcome small">Erbjuder onlinebesök över hela Sverige</h4>
+        <h4 className="welcome small">Jag erbjuder onlinebesök över hela Sverige</h4>
         </div>
         
        
