@@ -101,7 +101,8 @@
   
   #imgDiv {
     height: 50%;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
+    margin-right: 5px;
   }
   
   svg {
@@ -297,9 +298,14 @@
     } */
 
     #headerName {
-        justify-content: left;
-        align-items: left;
-        padding: 10px 0 0 10px;
+justify-content: space-between;
+        padding: 5px 10px;
+    }
+
+    #headerName > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     #headerH1 {
@@ -329,6 +335,26 @@
     #menuBar {
       flex-direction: column;
       padding: 10px;
+      width: 100vw;
+        border-radius: 0;
+ margin: 0;
+    }
+
+    #menuIcon {
+        z-index: 1000;
+    }
+
+    .open {
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 100;
+        margin: 0;
+        height: 100%;
+    }
+
+    #menuBar.closed {
+        display: none;
     }
   
     .containerDiv {

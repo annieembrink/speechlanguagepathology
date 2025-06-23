@@ -1,7 +1,7 @@
-const Menu = ({ setActivePage }) => {
+const Menu = ({ setActivePage, open }) => {
     return ( 
         <div>
-            <div id="menuBar">
+            <div id="menuBar" className={open ? "open" : "closed"}>
                 <button onClick={() => setActivePage("Hem")}>Hem</button>
                 <button onClick={() => setActivePage("Om")}>Om mig</button>
                 <button onClick={() => setActivePage("Digital vård")}>Digital vård</button>
