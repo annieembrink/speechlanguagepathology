@@ -46,7 +46,7 @@ const HomePage = () => {
                 </div>
             </div>
 
-            <Menu open={open} setActivePage={setActivePage} /> 
+            <Menu setOpen={setOpen} open={open} setActivePage={setActivePage} /> 
 
             <div id="content">
                 {activePage === "Hem" && <TextHomePage />}

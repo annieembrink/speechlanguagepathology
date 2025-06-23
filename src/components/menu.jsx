@@ -1,15 +1,39 @@
-const Menu = ({ setActivePage, open }) => {
+const Menu = ({ setActivePage, open, setOpen }) => {
     return ( 
         <div>
-            <div id="menuBar" className={open ? "open" : "closed"}>
-                <button onClick={() => setActivePage("Hem")}>Hem</button>
-                <button onClick={() => setActivePage("Om")}>Om mig</button>
-                <button onClick={() => setActivePage("Digital vård")}>Digital vård</button>
-                <button onClick={() => setActivePage("Tjänster")}>Tjänster</button>
-                <button onClick={() => setActivePage("Priser")}>Priser</button>
-                <button onClick={() => setActivePage("Kontakt")}>Kontakt & bokning</button>
-            </div>
+        <div id="menuBar" className={open ? "open" : "closed"}>
+          <button onClick={() => {
+            setActivePage("Hem");
+            setOpen(!open);
+          }}>Hem</button>
+      
+          <button onClick={() => {
+            setActivePage("Om");
+            setOpen(!open);
+          }}>Om mig</button>
+      
+          <button onClick={() => {
+            setActivePage("Digital vård");
+            setOpen(!open);
+          }}>Digital vård</button>
+      
+          <button onClick={() => {
+            setActivePage("Tjänster");
+            setOpen(!open);
+          }}>Tjänster</button>
+      
+          <button onClick={() => {
+            setActivePage("Priser");
+            setOpen(!open);
+          }}>Priser</button>
+      
+          <button onClick={() => {
+            setActivePage("Kontakt");
+            setOpen(!open);
+          }}>Kontakt & bokning</button>
         </div>
+      </div>
+      
     );
 }
 
