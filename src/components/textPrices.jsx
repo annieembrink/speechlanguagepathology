@@ -20,10 +20,11 @@ Jag fakturerar via extern tjänst. Fakturan skickas efter genomförd utredning e
 <h4>Övrigt</h4>
 <p>Du behöver ingen remiss för att komma till mig.</p></div>
 
-<div><p className="marginTopAndBottom">
-Eftersom verksamheten ej har avtal med landstinget, innebär det att du som patient själv står för kostnaden.</p> 
+<div className="containerDiv">
+    {/* <p className="marginTopAndBottom">
+Eftersom verksamheten ej har avtal med landstinget, innebär det att du som patient själv står för kostnaden.</p>  */}
 
-<p className="marginTopAndBottom">Fördelen är kortare väntetider, att jag kan ta emot patienter från hela Sverige och ha verksamheten helt online Det innebär större flexibilitet och en mer personlig vårdupplevelse där vi tillsammans skapar en plan utifrån dina behov och önskemål.</p>
+<p className="marginTopAndBottom">Fördelen med privat vård är kortare väntetider, att jag kan ta emot patienter från hela Sverige och ha verksamheten helt online Det innebär större flexibilitet och en mer personlig vårdupplevelse där vi tillsammans skapar en plan utifrån dina behov och önskemål.</p>
 
 
 

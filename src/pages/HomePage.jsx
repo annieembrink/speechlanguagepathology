@@ -29,6 +29,7 @@ const HomePage = () => {
                         </svg>
                     </div>
                     <h1 id='headerH1'>Webblogopeden</h1> */}
+                    {/* <Menu setOpen={setOpen} open={open} setActivePage={setActivePage} /> */}
                     </div>
                    
   <div id="menuIcon" onClick={() => setOpen(!open)}>

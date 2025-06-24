@@ -80,7 +80,7 @@
   
   .containerDiv {
     margin: 20px auto;
-    width: 80%;
+    width: 70%;
   }
   
   .containerDiv div {
@@ -286,6 +286,10 @@
       align-items: center;
     }
 
+    img {
+        width: 250px;
+    }
+
     #menuBar button {
         width: 60%;
     }
@@ -331,6 +335,7 @@
       height: auto;
       gap: 10px;
       text-align: center;
+      height: 10vh;
     }
 
     /* #headerName {

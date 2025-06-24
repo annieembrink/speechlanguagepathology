@@ -33,7 +33,7 @@ app.post('/contact', async (req, res) => {
       from: process.env.EMAIL_USER,
       to: email,
       subject: 'Thanks for contacting us!',
-      text: `Hi ${name},\n\nThanks for reaching out! We received your message:\n\n"${message}"\n\nWe'll be in touch soon.\n\n- Your Company`
+      text: `Hi ${name},\n\nThanks for reaching out! We received your message:\n\n"${message}"\n\nWe'll be in touch soon.\n\n- Webblogopeden`
     });
 
     res.status(200).json({ message: 'Emails sent successfully.' });
