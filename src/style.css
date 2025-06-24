@@ -40,7 +40,7 @@
   }
   
   .welcome {
-    font-weight: 200;
+    /* font-weight: 200; */
     font-size: 1.5rem;
   }
   
@@ -64,10 +64,10 @@
   
   h3, h4 {
     color: #44745F;
-    /* margin: 20px 0 5px 0;
+    margin: 20px 0 5px 0;
     display: flex;
     align-items: center;
-    justify-content: center; */
+    justify-content: center;
   }
 
   .marginTopAndBottom {
@@ -200,11 +200,16 @@
   
   ul {
     list-style: none;
+    width: 60%;
+    margin: auto;
   }
   
   li {
-    margin-bottom: 5px;
-    font-style: italic;
+    /* text-align: left; */
+    margin-bottom: 20px;
+    text-align: center;
+    /* margin-bottom: 5px;
+    font-style: italic; */
   }
   
   li:first-child {

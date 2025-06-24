@@ -19,7 +19,10 @@ const TextWeOffer = () => {
   };
 
   return (
-    <div>
+    <>
+    
+    {/* <h3 className="marginTopAndBottom">Tjänster</h3> */}
+        
       <div className="container">
         <div className="containerDiv">
           <p>Väntetider just nu: 1 vecka</p>
@@ -84,7 +87,8 @@ const TextWeOffer = () => {
   )}
 </div>
 
-    </div>
+    
+    </>
   );
 };
 
