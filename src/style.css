@@ -64,7 +64,18 @@
   
   h3, h4 {
     color: #44745F;
-    margin: 20px 0 5px 0;
+    /* margin: 20px 0 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+  }
+
+  .marginTopAndBottom {
+    margin: 15px 0;
+  }
+
+  .marginBottom {
+    margin-bottom: 15px;
   }
   
   .containerDiv {
@@ -86,7 +97,7 @@
     padding: 0;
   }
   
-  #headerContainer h3, h4 {
+  #headerContainer h3, #headerContainer h4 {
     margin: 0;
   }
   
@@ -255,6 +266,15 @@
       align-items: center;
     }
 
+    #menuBar button {
+        width: 60%;
+    }
+
+    #menuBar button:hover {
+        transform: scale(1.02);
+        transition: transform 0.3s ease;
+      }
+
     svg {
         height: 10vh;
     }
@@ -377,7 +397,7 @@ justify-content: space-between;
   
   @media (max-width: 480px) {
     #menuBar button {
-      width: 100%;
+      width: 8  0%;
       margin: 10px 0;
     }
   }
