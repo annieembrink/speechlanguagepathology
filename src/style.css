@@ -265,6 +265,21 @@
   }
   
   /* === Responsive Adjustments === */
+
+  @media screen and (min-width: 768px) {
+    #menuIcon {
+      display: none;
+    }
+
+    #headerName {
+        justify-content: left;
+        margin-left: 20px;
+    }
+
+    img {
+        width: 400px;
+    }
+  }
   @media (max-width: 768px) {
     body {
       flex-direction: column;
@@ -280,9 +295,9 @@
         transition: transform 0.3s ease;
       }
 
-    svg {
+    /* svg {
         height: 10vh;
-    }
+    } */
   
     #flex {
       flex-direction: column;
@@ -324,7 +339,9 @@
 
     #headerName {
 justify-content: space-between;
-        padding: 5px 10px;
+        padding: 20px 10px;
+        width: 90vw;
+        margin: auto;
     }
 
     #headerName > div {

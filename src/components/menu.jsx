@@ -2,6 +2,7 @@ const Menu = ({ setActivePage, open, setOpen }) => {
     return ( 
         <div>
         <div id="menuBar" className={open ? "open" : "closed"}>
+            
           <button onClick={() => {
             setActivePage("Hem");
             setOpen(!open);

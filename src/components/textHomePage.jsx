@@ -27,8 +27,7 @@ const TextHomePage = () => {
             <p className="marginBottom">
               Varmt välkommen att höra av dig om du har frågor eller vill boka en tid.
             </p>
-            <p className="italic">Telefon: 072 538 48 17</p>
-            <p className="italic">E-post: annie.embrink@gmail.com</p>
+            <p className="italic">webblogopeden@gmail.com</p>
           </div>
         </div>
       </div>
