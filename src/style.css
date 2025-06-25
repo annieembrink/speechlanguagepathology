@@ -200,7 +200,6 @@
   
   ul {
     list-style: none;
-    width: 60%;
     margin: auto;
   }
   
@@ -279,6 +278,10 @@
     img {
         width: 400px;
     }
+
+    /* ul {
+    width: 70%;
+    } */
   }
   @media (max-width: 768px) {
     body {
