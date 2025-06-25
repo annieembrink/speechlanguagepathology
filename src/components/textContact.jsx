@@ -10,7 +10,7 @@ const TextContact = () => {
             <ContactForm></ContactForm>
             <br></br>
             <p>webblogopeden@gmail.com</p>
-            <p>Stockholm, test</p>
+            <p>Stockholm</p>
         {/* </div> */}
     </div> );
 }
