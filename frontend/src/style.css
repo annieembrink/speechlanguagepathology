@@ -432,3 +432,39 @@ justify-content: space-between;
     }
   }
   
+  /* Make links inside #menuBar look like your old buttons */
+#menuBar a {
+  padding: 10px 20px;
+  margin: 20px;
+  background-color: #44745F;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#menuBar a:hover {
+  transform: scale(1.1);
+}
+
+/* Responsive adjustments for the links */
+@media (max-width: 768px) {
+  #menuBar a {
+    width: 60%;
+  }
+  #menuBar a:hover {
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 480px) {
+  #menuBar a {
+    width: 80%;
+    margin: 10px 0;
+  }
+}

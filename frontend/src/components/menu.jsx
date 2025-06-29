@@ -1,41 +1,17 @@
-const Menu = ({ setActivePage, open, setOpen }) => {
-    return ( 
-        <div>
-        <div id="menuBar" className={open ? "open" : "closed"}>
-            
-          <button onClick={() => {
-            setActivePage("Hem");
-            setOpen(!open);
-          }}>Hem</button>
-      
-          <button onClick={() => {
-            setActivePage("Om");
-            setOpen(!open);
-          }}>Om mig</button>
-      
-          <button onClick={() => {
-            setActivePage("Digital vård");
-            setOpen(!open);
-          }}>Digital vård</button>
-      
-          <button onClick={() => {
-            setActivePage("Tjänster");
-            setOpen(!open);
-          }}>Tjänster</button>
-      
-          <button onClick={() => {
-            setActivePage("Priser");
-            setOpen(!open);
-          }}>Priser</button>
-      
-          <button onClick={() => {
-            setActivePage("Kontakt");
-            setOpen(!open);
-          }}>Kontakt & bokning</button>
-        </div>
-      </div>
-      
-    );
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+const Menu = ({ open, setOpen }) => {
+  return (
+    <nav id="menuBar" className={open ? "open" : "closed"}>
+      <Link to="/" onClick={() => setOpen(false)}>Hem</Link>
+      <Link to="/about" onClick={() => setOpen(false)}>Om mig</Link>
+      {/* <Link to="/services" onClick={() => setOpen(false)}>Digital vård</Link> */}
+      <Link to="/services" onClick={() => setOpen(false)}>Tjänster</Link>
+      <Link to="/prices" onClick={() => setOpen(false)}>Priser</Link>
+      <Link to="/contact" onClick={() => setOpen(false)}>Kontakt & bokning</Link>
+    </nav>
+  );
 }
 
 export default Menu;
